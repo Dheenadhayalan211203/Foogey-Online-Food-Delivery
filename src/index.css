@@ -1,0 +1,314 @@
+body{
+    background-image: url(bckk4.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+    
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border:  3px solid black;
+    padding : 15px;
+   
+    background-color: rgb(255, 189, 66);
+    border-radius: 8px;
+    font-size: large;
+    position: sticky;
+    background-size: cover;
+    
+
+}
+.logo
+{
+    height: 30px;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+}
+.nav-items span {
+    margin: 0 15px;
+    font-weight: bolder;
+    
+}
+.nav-items span:hover
+{
+    color: rgb(255, 0, 0);
+}
+.button{
+    font-weight: bold;
+    font-size: 15px;
+    font-style: oblique;
+    background-color: Black;
+    color: white;
+    margin: 20px;
+    border-bottom: 3px solid white;
+    border-left: 3px solid white;
+    border-top: 3px solid white;
+    border-right: 3px solid white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+   
+   
+}
+.searchbox{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+
+
+.button:hover
+{
+    border-radius: 10px;
+    box-shadow:0 0 10px white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+}
+.res-card
+{
+    margin: 30px;
+    border-radius: 10px ;
+    border:2px solid rgb(241, 243, 241);
+    background-color: rgb(241, 241, 241);
+    width: 300px;
+   
+}
+
+.res-name
+{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.info
+{
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.cuisines
+{
+    font-style: italic;
+}
+.area
+{
+    padding-top: 5px;
+    font-weight: bolder;
+}
+.res-img
+{
+    border-radius: 10%;
+    height:200px ;
+}
+
+.res-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+    
+   
+    
+}
+.res-card
+{
+    padding: 30px;
+    
+}
+.res-card:hover
+{
+       border-radius: 10px;
+       box-shadow:0 0 10px white;
+
+}
+.card{
+    display: flex;
+ 
+}
+.load
+{
+    color: whitesmoke;
+   
+
+}
+.topic
+{
+    margin: 20px;
+}
+.r{
+   font-size: 100px;
+   color: rgb(125, 228, 137);
+}
+.remr{
+    color: rgb(229, 225, 225);
+    font-size: 50px;
+    
+}
+.SearchItem
+{
+border-radius: 30px;
+
+font-weight: lighter;
+height: 50px;
+width: 500px;
+}
+.SearchItem:hover
+{
+    
+    border-radius: 30px;
+    box-shadow:0 0 10px rgb(0, 0, 0);
+
+}
+.searchbutton{
+   
+   height: 50px;
+   margin-left: 40px;
+   width: 100px;
+    
+   border-bottom: 3px solid white;
+   border-left: 3px solid white;
+   border-top: 3px solid white;
+   border-right: 3px solid white;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   border-radius: 10px;
+  
+
+}
+.notfound
+{
+    margin-left:450px;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+  
+    font-style: oblique;
+  
+  
+   
+    
+}
+.searchbutton:hover{
+    border-radius:10px ;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    background-color: black;
+    color: white;
+
+}
+.searchbox
+{
+    margin:0;
+    margin-top: 10px;
+}
+
+.container{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    gap: 10px;
+    padding: 30px;
+    
+    
+  
+    
+}
+.container img{
+    height:100%;
+    width: 10%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: all ease-out 0.10s;
+    cursor: pointer;
+  
+}
+.container img:hover
+{
+    width: 400px;
+    box-shadow: 0 0 50px rgb(133, 163, 218);
+    background-color: black;
+    
+}
+.topcrav
+{
+    color: white;
+    margin:0;
+}
+.topsec
+{
+    display: flex;
+    justify-content:center ;
+    background-color: black;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+.topsec:hover{
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+    background-color: black;
+   
+}
+.topt
+{
+    font-size: 100px;
+    font-style: italic;
+}
+.topop
+{
+    
+    font-size: 50px;
+    font-style: italic;
+}
+.carving
+{
+    font-size: 50px;
+    font-style: italic;
+    margin: 0;
+}
+.order
+{
+    color: white;
+    padding-right: 30px;
+    font-style: italic;
+    font-size: 30px;
+}
+.location-list li
+{
+    color: white;
+    text-decoration: none;
+}
+.location img{
+    height: 50px;
+
+}
+.location-list a{
+    text-decoration: none;
+    color: white;
+}
+aside{
+    text-decoration: none;
+}
+.location summary{
+    background-color: white;
+    width: 70px;
+    border-radius: 50%;
+    padding-right: 10px;
+}
+ul{
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+}
